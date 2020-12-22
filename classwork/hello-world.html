@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>code-Along #1</title>
   </head>
@@ -8,11 +8,14 @@
     <header>
       <h1>Hello, World!</h1>
     </header>
+
       <p>This is a paragraph</p>
-      <hr />
       <p id="ContentArea" style="color:red;">
-        This is red
-      </p>
+        This is red   </p>
+
+      <hr />
+
+      <h1> Styles </h1>
       <p><b> bold </b></p>
       <p><strong> bold and important </strong></p>
       <i> italics </i>
@@ -26,9 +29,13 @@
          blockquote marks enclosed text as quoted
        </blockquote>
       <p><code> display the contents of the code element in a fixed-width font like you see in many text editors used for programming. It is often used to set apart and display programming code you wish to show your users</code></p>
-      <p>This text will appear on the page.</p>
+      <p>This is a paragraph. <strong>This sentence is bold with one word in <em>italics</em>.</strong></p>
+
       <!-- This is a comment and will not display -->
-      <p>This will also appear on the page.</p>
+
+      <hr/>
+
+      <h1>Types of headings </h1>
       <h1>hi</h1>
       <h2>hi</h2>
       <h3>hi</h3>
@@ -36,6 +43,45 @@
       <h5>hi</h5>
       <h6>hi</h6>
 
+      <hr/>
+      <div>
+       <h2>Demonstrating a span element</h2>
+       <p>
+           In this paragraph, our <span style="background-color: yellow">span element</span> will
+           highlight the text it contains in yellow.
+       </p>
+   </div>
+
+   <p>
+       In this paragraph, our <span style="color:lightblue">span element</span> will
+       highlight the text it contains in yellow.
+   </p>
+   <span style="background-color: lightblue; border: thin solid darkblue;">Fusce lectus nibh, sollicitudin ac turpis id, aliquet sodales tellus.</span> 
+
+ </hr>
+ <h1>Links</h1>
+ <a> clickable content </a>
+ <a href="https://www.google.com">Google</a>
+ <p><a href="https://www.google.com">
+  <img src="images/logo.jpg" />
+</a></p>
+<p><a href="https://www.google.com" target="_blank">Google opens in new window</a></p>
+<p><a href="https://wiki.synfig.org/" target="_blank">Wiki Synfig</a></p>
+<p><a href="about.html">About Us</a>
+</p>
+<a href="products/desktop-computer.html">Featured Product</a>
+
+<h1>Bookmark Links in HTML</h1>
+
+   <p>This is the question.</p>
+   <figure><img src="images/ivy-3495403_1280.jpg" alt="" /></figure>
+   <p>This is the target.</p>
+   <figure><img src="images/nature-3481966_1280.jpg" alt="" /></figure>
+
+   <p><a href="#target">This is the question.</a></p>
+   <figure><img src="images/ivy-3495403_1280.jpg" alt="" /></figure>
+   <p id="target">This is the target.</p>
+   <figure><img src="images/nature-3481966_1280.jpg" alt="" /></figure>
 
   </body>
 </html>

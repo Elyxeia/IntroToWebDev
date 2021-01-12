@@ -8,6 +8,53 @@ Most recent revision:22/12/20
 <html lang="en">
   <head>
       <title> Alexandra's Portfolio </title>
+      <link href="styles/main.css" rel="stylesheet" type="text/css" />
+      <style>
+      body {
+             background-color: #fef9ff;
+             color: #0d1f2d
+         }
+
+
+         caption {
+             font-weight: bold;
+             font-size: 1.2em;
+             margin-bottom: 8px;
+         }
+
+         table, th, td {
+        border: 1px solid #0d1f2d;
+         border-collapse: collapse;
+         padding-top: 5px;
+         padding-right: 0px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+
+      }
+
+      table {
+        width: 90%;
+       margin: auto;
+      }
+
+      th {
+        background-color: #546a7b;
+        color: #f2eded;
+      }
+
+      tr {
+    height: 30px;
+    }
+
+      tfoot td {
+        text-align: center;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #e4c3ad;
+      }
+
+      </style>
   </head>
 
   <body>
@@ -17,7 +64,7 @@ Most recent revision:22/12/20
 
 <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
 
-<hr />
+
 
     <nav> <!-- The nav element will include navigation buttons or links -->
       <p><a href=""> Home </a></p>
@@ -26,28 +73,31 @@ Most recent revision:22/12/20
       <p><a href="testimonials.html"> Testimonials </a></p>
     </nav>
 
-<hr />
+
 
   <section>
     <div>
     <article id = "about-me">
     <h2><em> About Me </em></h2>
-    <a href="index.html"><img src="images/Photo.jpg" alt="Portrait of Alexandra Hall" style = "border: thick black solid; width: 300px; "></a>
+    <a href="index.html"><img src="images/Photo.jpg" alt="Portrait of Alexandra Hall" style = "width: 200px; "></a>
       <p> I am a Finance and Mathematics graduate student with 1st class honours looking to utilise my research and analytical skills and further develop them in a practical and fast-paced environment.  During my time at university I developed strong numerical skills and a great understanding in finance which I believe are very important for someone working as an analyst. I am capable of assuming project management responsibilities and actively contribute to the overall success of any business I work for. </p>
     </article>
 
     <article id = "past-experiences">
     <h2><em> Past Experiences </em></h2>
-      <img src="images/Grad.jpg" alt="Graduate" style = "border: thick black solid; width: 300px;  " />
+      <img src="images/Grad.jpg" alt="Graduate" style = "width: 300px;  " />
 
       <table>
         <caption> Employment History </caption>
+        <thead>
         <tr>
           <th> Date of Employment </th>
           <th> Title </th>
           <th> Company </th>
         </tr>
+      </thead>
 
+      <tbody>
         <tr>
         <td> 2020-Present </td>
         <td> Banking Operations Trainee </td>
@@ -60,6 +110,19 @@ Most recent revision:22/12/20
       <td> Intersoft </td>
     </tr>
 
+    <tr>
+    <td> February 2016 </td>
+    <td> Veterinarian Assistant </td>
+    <td> Cape Veterinary Clinic </td>
+  </tr>
+
+  <tr>
+  <td> April 2013 </td>
+  <td> Mocrobiology Assistant </td>
+  <td> Hygiena International </td>
+</tr>
+  </tbody>
+
       </table>
 
       <p> I have experience working as a Business Analyst for a month-long placement at a company called Intersoft. During my time there I became familiar with the agile lifecycle, Scrum, as an alternative for the traditional waterfall process. I wrote and edited user stories and was creative by making a video user guide where I would produce screen recordings of their software. </p>
@@ -69,7 +132,7 @@ Most recent revision:22/12/20
 
     <article id = "hobbies">
     <h2><em> Hobbies </em></h2>
-      <img src="images/Happy-Birthday.png" alt="Drawing" style = "border: thick black solid; width: 300px; " />
+      <img src="images/Happy-Birthday.png" alt="Drawing" style = "width: 300px; " />
 
       <ul>
              <li>Sports</li>
@@ -95,7 +158,6 @@ Most recent revision:22/12/20
   </section>
 
   <footer>
-    <hr/>
     <p>&copy; 2020 Alexandra Hall. All rights reserved.</p>
   </footer>
   </body>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <title> CSS Help </title>
+    <style>
+    a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .warning {
+    font-weight: bold;
+    color: red;
+  }
+
+  div .warning {
+    font-style: italic;
+  }
+
+  body {
+    font-family: "Comic Sans MS";
+
+  }
+
+  #outside {
+    border: thick orange solid;
+    width: 400px;
+    height: 200px;
+    background-color: #800d14;
+    margin-left: 50px;
+    margin-top: 50px
+}
+
+
+#inside {
+    text-align: center;
+    font-size: 2em;
+    background-color: white;
+    padding: 20px 10px 5px 0;
+    margin: 15px;
+
+
+}
+
+body {
+       background-image:url("images/Happy-Birthday.png");
+       background-color: #cccccc;
+   }
+
+
+   a {
+     font-family: monospace;
+     text-decoration: underline;
+     font-weight: none;
+   }
+
+   a:link {
+     color: green;
+   }
+
+   a:visited {
+     color: red;
+   }
+
+   a:hover {
+     text-decoration: none;
+     color: #00c;
+     font-family: cursive;
+   }
+
+   a:active {
+     font-weight: bold;
+   }
+
+
+   table, th, td {
+  border: 1px solid black;
+   border-collapse: collapse;
+   padding-top: 5px;
+   padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 25px;
+}
+
+tfoot td {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lemonchiffon;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lawngreen;
+}
+
+thead, tfoot {
+  background-color: blue;
+}
+
+        </style>
+
+
+  </head>
+
+  <body>
+
+
+    <header>
+      <h1><center> CSS Help </center> </h1>
+    </header>
+
+
+<h2>CSS & HTML</h2>
+  <div class="warning">
+  </div>
+  <p class="warning">First Name is required.</p>
+  <label for="firstName">First Name</label>
+  <input type="textbox" name="firstName"/>
+  <p style="color:red;font-weight:bold;">
+These fields are required.
+</p>
+
+<div style="background-color: rgb(178,31,40);">Dark red using rgb
+
+<h2>Rule Set</h2>
+
+<p>yo</p>
+
+selector {
+  attribute1: value;
+  attribute2: value;
+  ...
+}
+
+
+.warning {
+font-weight: bold;
+color: red;
+}
+
+.warning is a CSS selector
+
+CSS declaration is color:red;
+
+</div>
+
+<h2>Comments</h2>
+.warning {
+  font-weight: bold;
+  /* color: red; */
+}
+
+/* .warning {
+  font-weight: bold;
+  color: red;
+} */
+
+/* This is used
+for validation */
+.warning {
+  font-weight: bold;
+  color: red;
+}
+
+<h2>Element Selectors</h2>
+<ul>
+            <li>Sam</li>
+            <li>John</li>
+            <li>Chris</li>
+        </ul>
+
+<h2> ID Selectors </h2>
+<div id="p1">
+  <h5>yayyy</h5>
+  <p>whooo</p>
+</div>
+
+<div id="p2">
+  <h5>boooo</h5>
+  <p>ooga</p>
+  </div>
+
+  <div id="p3">
+    <h5>dfghjk</h5>
+    <p>sgiuigh</p>
+  </div>
+
+  <h2>Class Selectors</h2>
+  <div class="warning">
+            <p>The following errors occurred:</p>
+        </div>
+        <p class="warning">First Name is required.</p>
+        <label for="firstName">First Name</label>
+        <input type="textbox" name="firstName"/>
+        <p class="warning">Last Name is required.</p>
+        <label for="lastName">Last Name</label>
+        <input type="textbox" name="lastName"/>
+
+<div class="warning2">
+                  <p>The following errors occurred:</p>
+              </div>
+              <p class="warning">First Name is required.</p>
+              <label for="firstName">First Name</label>
+              <input type="textbox" name="firstName"/>
+              <p class="warning">Last Name is required.</p>
+              <label for="lastName">Last Name</label>
+              <input type="textbox" name="lastName"/>
+
+              <div id="outside">
+                 <button id="inside">I'm a button!</button>
+             </div> <!--close #outside-->
+
+
+             <div style="background-color: rgb(255,0,0);">Red using rgb</div>
+                <div style="background-color: rgba(255,0,0,0.5);">Red with 50% using rgba opacity</div>
+                <div style="background-color: rgb(178,31,40);">Dark red using rgb</div>
+                <div style="background-color: #ff0000;">Red using hexadecimal</div>
+                <div style="background-color: #f00;">Red using hexadecimal</div>
+                <div style="background-color: #b21f28;">Dark red using hexadecimal</div>
+
+
+    <h2>Background, Text, Font</h2>
+
+    <div style="color:red;text-align: justify;width: 300px;">
+       First Name is required.
+       <p>   Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Morbi ultrices arcu eget
+        turpis consectetur faucibus. Vestibulum
+        faucibus magna lectus, ac aliquam nulla facilisis
+        sed. Morbi bibendum, arcu sed tristique fringilla,
+        magna mi efficitur magna, vitae gravida felis risus
+        nec arcu. Sed interdum, mauris at interdum interdum,
+        metus nunc rutrum nibh, quis tempus orci quam vitae
+        sem. Suspendisse nec ullamcorper neque.</p>
+       </div>
+
+       <div style="text-indent: 30%;width: 300px;">
+           Lorem ipsum dolor sit amet, consectetur
+           adipiscing elit. Morbi ultrices arcu eget
+           turpis consectetur faucibus. Vestibulum
+           faucibus magna lectus, ac aliquam nulla facilisis
+           sed. Morbi bibendum, arcu sed tristique fringilla,
+           magna mi efficitur magna, vitae gravida felis risus
+           nec arcu. Sed interdum, mauris at interdum interdum,
+           metus nunc rutrum nibh, quis tempus orci quam vitae
+           sem. Suspendisse nec ullamcorper neque.
+       </div>
+
+
+    <p>   capitalize – capitalize the first character of each word
+      <p> uppercase – convert all characters TO UPPERCASE
+       <p>lowercase – CONVERT ALL CHARACTERS to lowercase
+       <p>none – no capitalization effects </p>
+
+       <p style="text-transform: uppercase;">
+           Now this is crazy!
+           <span style="text-transform: none; color: dodgerblue;">
+               Yay!
+           </span>
+           <span style="text-transform: capitalize;">
+               we love CSS!
+           </span>
+       </p>
+
+       <p>
+                This is
+                <span style="text-decoration:underline;">
+                  underlined.
+                </span>
+                This is
+                <span style="text-decoration:overline;">
+                  overlined.
+                </span>
+                This is
+                <span style="text-decoration:line-through;">
+                  line-through.
+                </span>
+              </p>
+
+<hr style="width: 90%; border: 2px solid blueviolet;"/>
+    <h2>Links and Tables</h2>
+    <p>Unvisited links are green.
+    <p>Visited links are red.
+    <p>All links are underlined, except when hovering over a link.
+    <p>All links are in a monospace font, except when hovering over a link. When hovering over the link, the text is in cursive.
+    <p>We want to make sure it is clear which link we are selecting. Active (selected) links are bold.
+
+
+
+
+      <table border = "1">
+        <caption>Table Caption</caption>
+        <thead>
+            <tr>
+              <th>Heading 1</th>
+              <th>Heading 2</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>1</td>
+              <td>Lorem</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>ipsum</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>dolor</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Lorem</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+              <td colspan="2">Table Footer Text</td>
+            </tr>
+        </tfoot>
+    </table>
+  </body>
+</html>

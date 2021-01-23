@@ -36,6 +36,7 @@ nav {
 
 article img {
    float:left;
+   margin: auto;
 }
 
 .right-content {

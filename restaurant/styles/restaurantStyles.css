@@ -1,0 +1,113 @@
+/*
+Creator: Alexandra Hall
+Date created: 12/01/21
+Date last modified:
+*/
+body {
+    background-color: #ffedcf;
+    font-family: arial, helvetica, sans-serif;
+    color: #0d1f2d;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #a34d0f;
+    color: #fef9ff;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    border-top: 3px dashed #a34d0f;
+    border-bottom: 3px dashed #a34d0f;
+
+    margin-top: 4px;
+}
+
+nav a {
+    background-color: #a34d0f;
+    color:#fef9ff;
+    padding: 8px 0;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+margin: 20px ;
+width: 100px;
+float: left;
+
+}
+
+nav a:hover {
+    background-color: #fef9ff;
+    color: #0d1f2d;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #0d1f2d;
+}
+
+
+.clear-float {
+    clear:both;
+}
+
+article img {
+   float:middle;
+}
+
+article {
+    margin-bottom: 16px;
+}
+
+
+a {
+  text-decoration: underline;
+  font-weight: none;
+}
+
+a:visited {
+  color: #bda988;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a34d0f;
+  font-weight: bold;
+
+}
+
+a:active {
+  font-weight: bold;
+}
+
+table, td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  padding: 5px 0px 5px 10px;
+}
+
+table {
+  width: 100%;
+}
+
+
+
+tbody tr:nth-child(even) {
+  background-color:  #fef9ff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color:  #a34d0f;
+  color:  #fef9ff;
+}
